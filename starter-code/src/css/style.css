@@ -1,0 +1,103 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@100&family=Fraunces:opsz,wght@9..144,700&family=Neonderthaw&display=swap');
+.hero{
+    background-image: url(../../assets/home/background-home-desktop.jpg);
+}
+
+main{
+    display: flex;
+    width: 100vw;
+    height: inherit;
+    position: relative;
+    flex-direction: row;
+    margin-bottom: 5rem;
+    justify-content: space-around;
+    align-items: flex-end;
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 1.125rem;
+}
+main section{
+    width: 400px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+main section *{
+    margin-bottom: 20px;
+}
+main h1{
+    
+    margin-bottom: 2rem;
+    font-size: 6rem;
+    
+}
+main h2{
+    font-weight: 100;
+}
+main div{
+    display: flex;
+    height: 100%;
+    align-items: flex-end;
+}
+main button{
+    border-radius: 50%;
+    border: none;
+    width: 200px;
+    font-size: 1.5rem;
+    height: 200px;
+    text-transform: uppercase;
+    font-family: 'Bellefair', serif;
+    font-weight: 100;
+    transition: .5s ease;
+    color: #000;
+
+}
+main button:hover{
+    box-shadow: 0 0 0 2rem rgba(255, 255, 255, 0.15);
+    transform: scale(1.1);
+    cursor: pointer;
+}
+main button a{
+    
+    color: #000;
+}
+@media (max-width:900px){
+    main{
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+        justify-content: center;
+        align-items: center;
+        z-index: 9;
+    }
+    main section{
+        width: 90%;
+        margin: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    main section p{
+        width: 70%;
+        line-height: 2rem;
+        font-family: 'Barlow Condensed', sans-serif;
+    }
+    main .btn-div{
+        display: flex;
+        align-items: center;
+    }
+}
+@media(max-width:500px){
+    .hero{
+        background-image: url(../../assets/home/background-home-mobile.jpg);
+        font-size: 1.125rem;
+    }
+    main section p{
+        line-height: 1.2rem;
+    }
+    main section *{
+        margin: 0;
+    }
+}

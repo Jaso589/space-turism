@@ -44,7 +44,7 @@ document.addEventListener('click',(e)=>{
         $nombre.innerHTML = (jsonData[i].name).toUpperCase()
 
         $img.innerHTML = `
-        <img src="../../starter-code${jsonData[i].images.png}" alt="">
+        <img src="../..${jsonData[i].images.png}" alt="">
         `
 })
 
@@ -53,6 +53,6 @@ document.addEventListener('click',(e)=>{
     $nombre.innerHTML = (jsonData[0].name).toUpperCase()
 
     $img.innerHTML = `
-    <img src="../../starter-code${jsonData[0].images.png}" alt="">
+    <img src="../..${jsonData[0].images.png}" alt="">
     `
 

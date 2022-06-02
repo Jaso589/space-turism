@@ -48,7 +48,8 @@ document.addEventListener('click', (e)=>{
     $title.innerHTML = (jsonData[i].name).toUpperCase();
     $text.innerHTML = jsonData[i].description;
     $img.innerHTML = `
-        <img src="/starter-code${jsonData[i].images.png}" alt="${jsonData[0].name}">
+    <img src="../../starter-code${jsonData[i].images.png}" alt="${jsonData[0].name}">
+       
     `;
     $distance.innerHTML = `
         <p>AVG. DISTANCE</p>
@@ -63,7 +64,8 @@ document.addEventListener('click', (e)=>{
 $title.innerHTML = (jsonData[0].name).toUpperCase();
     $text.innerHTML = jsonData[0].description;
     $img.innerHTML = `
-        <img src="/starter-code${jsonData[0].images.png}" alt="${jsonData[0].name}">
+        <img src="../../starter-code${jsonData[0].images.png}" alt="${jsonData[0].name}">
+       
     `;
     $distance.innerHTML = `
         <p>AVG. DISTANCE</p>

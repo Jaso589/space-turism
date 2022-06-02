@@ -101,6 +101,10 @@ section .text-block .links button:hover{
 }
 
 @media(max-width:500px){
+    .hero{
+        background-image: url(../../assets/technology/background-technology-mobile.jpg);
+    }
+    
     section{
         margin: 0;
     }

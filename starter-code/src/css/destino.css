@@ -1,5 +1,5 @@
 .hero{
-    background-image: url(/starter-code/assets/destination/background-destination-desktop.jpg);
+    background-image: url(../../assets/destination/background-destination-desktop.jpg);
 }
 main{
     display:grid;
@@ -78,6 +78,9 @@ main .link-destination .data p:nth-child(2){
     }
 }
 @media (max-width:500px){
+    .hero{
+        background-image: url(../../assets/destination/background-destination-mobile.jpg);
+    }
     main{
         margin: 0 10px;
     }
